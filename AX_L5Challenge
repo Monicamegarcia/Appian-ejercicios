@@ -1,0 +1,5 @@
+if(
+  isnull(ri!value),
+  "null value",
+  ri!value
+)
