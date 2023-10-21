@@ -1,0 +1,4 @@
+a!localVariables(
+  local!sum: ri!first + ri!second,
+  "the new total is " & local!sum
+)
