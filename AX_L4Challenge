@@ -1,0 +1,5 @@
+if(
+  len(ri!string) > ri!maxLenght,
+"must not exceed " & ri!maxLenght & " characters.",
+"thank you for your information."
+)
