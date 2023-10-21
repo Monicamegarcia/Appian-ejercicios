@@ -1,0 +1,5 @@
+if(
+  (ri!returnedMileage - ri!startMileage) > 50000,
+"run full diagnostics",
+"return to inventory"
+)
