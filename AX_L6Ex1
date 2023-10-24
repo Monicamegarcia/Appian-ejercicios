@@ -1,0 +1,6 @@
+index({
+  color:"Red", 
+  make:"Toyota", 
+  model:"Prius", 
+  mileage: 15500
+}, "model")
