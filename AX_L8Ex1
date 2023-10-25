@@ -1,5 +1,5 @@
 if(
-  ri!status = "valid user",
+  ri!status = "Valid User",
   rule!AX_L2Ex1(),
   "Invalid user"
 )
