@@ -1,0 +1,2 @@
+"Ticket #" & ri!ticketID &" created by "& user(loggedInUser(), "firstName"
+)
