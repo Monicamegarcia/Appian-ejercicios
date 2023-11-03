@@ -1,0 +1,10 @@
+a!match(
+  value: true(),
+  equals: isnull(ri!user),
+  then: "",
+  equals: isusernametaken(ri!user),
+  then: proper(
+    user(ri!user, "firstName") & " " & user(ri!user, "lastName")
+  ),
+  default: proper(joinarray(split(ri!user, "."), " "))
+)
